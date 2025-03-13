@@ -1,17 +1,43 @@
 #include <stdio.h>
 
 int main() {
-  int myArray[] = {1,2,3,4,5};
+//  int myArray[] = {1,2,3,4,5};
+//
+//  int length = sizeof(myArray) / sizeof(myArray[0]);
+//  printf("%d\n", length);
+//
+//  for (int i = 0; i < length; i++) {
+//    printf("%d\n", myArray[i]);
+//  }
+//
+//  printf("%lu\n", sizeof(myArray));
 
-  printf("%d\n", myArray[1]);
+  int ages[] = {20, 22, 18, 35, 48, 26, 87, 70};
+  int sum = 0;
+  float avg;
 
-  myArray[1] = 6;
+  int lowestAge = ages[0];
+  int highestAge = ages[0];
 
-  printf("%d\n", myArray[1]);
 
-  for (int i = 0; i < 5; i++) {
-    printf("%d\n", myArray[i]);
+  int length = sizeof(ages) / sizeof(ages[0]);
+
+  for (int i = 0; i < length; i++) {
+    sum += ages[i];
+    if (ages[i] < lowestAge) {
+      lowestAge = ages[i];
+    }
+    if (ages[i] > highestAge) {
+      highestAge = ages[i];
+    }
   }
+
+  avg = sum / length;
+
+  printf("%d\n", lowestAge);
+  printf("%d\n", highestAge);
+
+  printf("The average number is: %.2f\n", avg);
 
   return 0;
 }
