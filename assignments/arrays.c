@@ -1,16 +1,16 @@
 #include <stdio.h>
 
 int main() {
-//  int myArray[] = {1,2,3,4,5};
-//
-//  int length = sizeof(myArray) / sizeof(myArray[0]);
-//  printf("%d\n", length);
-//
-//  for (int i = 0; i < length; i++) {
-//    printf("%d\n", myArray[i]);
-//  }
-//
-//  printf("%lu\n", sizeof(myArray));
+  int myArray[] = {1,2,3,4,5};
+
+  int length = sizeof(myArray) / sizeof(myArray[0]);
+  printf("%d\n", length);
+
+  for (int i = 0; i < length; i++) {
+    printf("%d\n", myArray[i]);
+  }
+
+  printf("%lu\n", sizeof(myArray));
 
   int ages[] = {20, 22, 18, 35, 48, 26, 87, 70};
   int sum = 0;
@@ -20,9 +20,9 @@ int main() {
   int highestAge = ages[0];
 
 
-  int length = sizeof(ages) / sizeof(ages[0]);
+  int length2 = sizeof(ages) / sizeof(ages[0]);
 
-  for (int i = 0; i < length; i++) {
+  for (int i = 0; i < length2; i++) {
     sum += ages[i];
     if (ages[i] < lowestAge) {
       lowestAge = ages[i];
@@ -32,7 +32,7 @@ int main() {
     }
   }
 
-  avg = sum / length;
+  avg = sum / length2;
 
   printf("%d\n", lowestAge);
   printf("%d\n", highestAge);
