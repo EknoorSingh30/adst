@@ -11,7 +11,6 @@ int main() {
     Please use if conditions.
      */
 
-<<<<<<< HEAD
     int age = 21;
 
     if(age >= 18) {
@@ -19,25 +18,6 @@ int main() {
     } else {
       printf("Sorry, you cannot vote!");
     }
-=======
-   // int age = 15;
->>>>>>> 761d188b84fd3068a41e5cd69238c14c84975109
 
-   // if(age >= 18) {
-   //     printf("Congratulation! You are eligible for casting your vote.\n");
-   // } else {
-   //     printf("Sorry! You are not eligible for casting your vote.\n");
-   // }
-
-
-   int age = 15;
-   if (age >= 16 && age < 18) {
-    printf("You can get a learner's license\n");
-   } else if (age>= 18) {
-    printf("You can get a class 5 license\n");
-   } else {
-    printf ("Sorry! You can not get a license, yet \n");
-
-   }
     return 0;
 }
