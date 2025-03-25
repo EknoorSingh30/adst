@@ -16,6 +16,7 @@ int main() {
   int sum = 0;
   float avg;
 
+
   int lowestAge = ages[0];
   int highestAge = ages[0];
 

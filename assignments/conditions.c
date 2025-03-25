@@ -11,7 +11,6 @@ int main() {
     Please use if conditions.
      */
 
-<<<<<<< HEAD
     int age = 21;
 
     if(age >= 18) {
@@ -19,9 +18,7 @@ int main() {
     } else {
       printf("Sorry, you cannot vote!");
     }
-=======
    // int age = 15;
->>>>>>> 761d188b84fd3068a41e5cd69238c14c84975109
 
    // if(age >= 18) {
    //     printf("Congratulation! You are eligible for casting your vote.\n");
