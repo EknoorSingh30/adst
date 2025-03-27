@@ -10,12 +10,10 @@ int main() {
 
   printf("%s\n", hello);
 
-  char carName[] = "Mazda";
-
-  int length = sizeof(carName) / sizeof(carName[0]);
+  int length = sizeof(hello) / sizeof(hello[0]);
 
   for (int i = 0; i < length; i++) {
-    printf("%c", carName[i]);
+    printf("%c", hello[i]);
   }
   return  0;
 }

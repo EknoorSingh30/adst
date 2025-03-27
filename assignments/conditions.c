@@ -19,9 +19,12 @@ int main() {
       printf("Sorry, you cannot vote!");
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
    // int age = 15;
 =======
 >>>>>>> 5e74c708d0f7c2fb63ccbd4659cbd704fac68145
 
+=======
+>>>>>>> 7078b27 (assigned)
     return 0;
 }

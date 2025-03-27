@@ -33,12 +33,11 @@ int main() {
     }
   }
 
-  avg = sum / length2;
-
-  printf("%d\n", lowestAge);
-  printf("%d\n", highestAge);
-
-  printf("The average number is: %.2f\n", avg);
+//  avg = sum / length2;
+//  printf("%d\n", lowestAge);
+//  printf("%d\n", highestAge);
+//
+//  printf("The average number is: %.2f\n", avg);
 
   return 0;
 }
