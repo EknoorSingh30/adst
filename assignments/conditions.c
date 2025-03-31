@@ -6,11 +6,25 @@ int main() {
     determine whether he is eligible to cast his/her own vote.
     Test Data : 21
     Expected Output :
-    Congratulation! You are eligible for casting your vote.
+    Congratulations! You are eligible for casting your vote.
 
     Please use if conditions.
      */
 
+    int age = 21;
 
+    if(age >= 18) {
+      printf("Congratulations! You are eligible for casting your vote.");
+    } else {
+      printf("Sorry, you cannot vote!");
+    }
+<<<<<<< HEAD
+<<<<<<< HEAD
+   // int age = 15;
+=======
+>>>>>>> 5e74c708d0f7c2fb63ccbd4659cbd704fac68145
+
+=======
+>>>>>>> 7078b27 (assigned)
     return 0;
 }
